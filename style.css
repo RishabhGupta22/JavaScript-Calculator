@@ -1,0 +1,131 @@
+body{
+ // background: linear-gradient(to bottom right, #232526, #414345 );
+  background-image:url("https://ngunyahyuk.files.wordpress.com/2014/12/lovely-varnished-wood-texture-mural-wallpaper.jpg");
+}
+
+#display{
+  text-align:right;
+  font-size:30px;
+  padding:5px 7px; 
+  width:300px;
+  margin-left:auto;
+  display:block;
+  margin-right:auto;
+  margin-top:5px;
+  height:50px;
+  border:2px solid dimgrey;
+  box-shadow:inset 1px 0px 5px dimgrey;
+}
+
+#divide{
+  font-size:40px;
+ font-family:"Roboto", serif;
+  font-weight:bold;
+  padding-top:0px;
+  position:relative;
+}
+
+.row{
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+}
+
+.btn{
+  width:72px;
+  height:60px;
+  border:none;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:5px;
+  font-size:25px;
+  border-radius:15px;
+  box-shadow:  3px -2px 5px grey,1px 2px 1px grey;
+}
+
+.btn:focus,.btn:active{
+  border:none;
+  outline:none !important;
+}
+
+
+.minus{
+  font-size:30px;
+  height:125px;
+  position:absolute;
+}
+
+.plus{
+  font-size:30px;
+  height:125px;
+  position:absolute;
+}
+
+.container .jumbotron{
+  height:475px;
+  width:420px;
+  margin-top:30px;
+  margin-bottom:50px;
+  margin-left:auto;
+  margin-right:auto;
+  
+  background:linear-gradient(to bottom right,silver,darkgrey);
+  border-top-left-radius: 10%30px;
+  border-top-right-radius: 10%30px;
+  border-bottom-left-radius: 10%30px;
+  border-bottom-right-radius: 10%30px;
+  box-shadow: inset 0px 10px 30px grey,inset -15px -20px 20px grey,inset 8px -5px 10px grey;
+}
+
+#bot{
+  background-color:crimson;
+  max-width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  border:3px solid orangered;
+  border-radius:10px;
+}
+
+h2{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  font-size:20px;
+  color:white;
+}
+
+h2 a{
+  color:silver;
+  text-transform:none;
+}
+
+a:hover,
+a:visited{
+  text-decoration:none;
+  color:silver;
+}
+
+hr{
+  max-width:700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.ac{
+   background: linear-gradient(to bottom, #2980b9 , #2c3e50  );
+}
+.ac:hover{
+  background-position: center left;
+}
+
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero{
+ background: linear-gradient(to top, #FF512F ,#F9D423 );
+ 
+}
+
+.ce,.dot,.multiply,.divide,.plus,.minus,.equal{
+  background:linear-gradient(to top,#D31027,#EA384D);
+}
